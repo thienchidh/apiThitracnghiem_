@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ProcessHandle {
-    public static String newMyJavaHandleProcess(String pathToJavaProcess, List<String> args) {
+    public static synchronized String newMyJavaHandleProcess(String pathToJavaProcess, List<String> args) {
         StringBuilder res = new StringBuilder();
         try {
             List<String> list = new LinkedList<>();

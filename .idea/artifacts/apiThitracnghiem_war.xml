@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="apiThitracnghiem:war">
+    <output-path>$PROJECT_DIR$/classes/artifacts/apiThitracnghiem_war</output-path>
+    <root id="archive" name="apiThitracnghiem_war.war">
+      <element id="artifact" artifact-name="apiThitracnghiem:war exploded" />
+    </root>
+  </artifact>
+</component>
